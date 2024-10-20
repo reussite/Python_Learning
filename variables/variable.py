@@ -17,13 +17,17 @@
   11. Classe (class) : Modèle pour créer des objets avec des propriétés et des méthodes (n'est pas un type de donnée en soi).
 
 """
-
-
+import copy
+from itertools import product
 # Déclaration et affectation de variables
+# en python les variables sont automatiquement typées c'est à dire que vous n'avez plus besoin de préciser les types de variables.
 
 nom =  "John"  
 age = 30
-citation = " "
+citation = " Tout le monde devrait apprendre à programmer un ordinateur, car cela vous apprend à penser " # cette sitation vient de steve Jobs
+moyenne_scolaire = 16.5 
+est_en_promotion = True  # Cette variable est de type booléen
+noms_des_etudiants = [ "Jean", "Paul", "Pierre", "Caroline", "Diane"]
+informations_des_etudiants = {    }
 
-
-
+print(noms_des_etudiants[2:])
